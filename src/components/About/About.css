@@ -1,0 +1,53 @@
+.about {
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.about_container {
+    margin: 20px auto;
+    gap: 20px;
+}
+
+
+.about_name {
+    color: var(--clr-primary);
+}
+
+.about_job {
+    margin-top: 1.2em;
+}
+
+.about_desc {
+    font-size: 1rem;
+    max-width: 700px;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.about_desc,
+.about_contact {
+    margin-top: 2.4em;
+}
+
+
+.about .link_icon {
+    margin-right: 1.9em;
+}
+
+.about .btn_outline {
+    margin-right: 1em;
+}
+
+@media (max-width: 620px) {
+    .app .about {
+        align-items: flex-start;
+        margin-top: 2em;
+    }
+    .name_container {
+        font-size: 1.9rem;
+    }
+
+    .about_job {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,23 @@
+.footer {
+    padding: 2em 0;
+    margin-top: 6em;
+    text-align: center;
+    background-color: var(--clr-bg-footer);
+}
+
+.footer_link {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--clr-footer-link);
+}
+
+.footer_link:hover {
+    color: var(--clr-footer-link);
+}
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 2em;
+        margin-top: 3em;
+    }
+}
